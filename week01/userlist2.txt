@@ -1,0 +1,7 @@
+3
+Tom H
+200
+Jerry B
+1000
+John K
+800

@@ -1,0 +1,15 @@
+# Visual Studio 임시 파일 및 폴더
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+
+# 빌드 결과물 (실행 파일 등)
+Debug/
+Release/
+x64/
+*.exe
+*.obj
+*.pdb
+*.ilk

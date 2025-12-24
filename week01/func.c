@@ -1,0 +1,11 @@
+#if 01
+#include "func.h"
+extern int num;
+void Increment() {
+	num++;
+}
+int GetNum() {
+	return num;
+}
+
+#endif
