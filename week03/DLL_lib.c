@@ -60,12 +60,12 @@ void DLL_InsertBefore(NodeDLL* fnode, NodeDLL* newnode) {
 	newnode->next = fnode;
 }
 void DLL_Destroy(NodeDLL* head, NodeDLL* tail) {
-	for (NodeDLL* curr = head->next; curr != tail; )
+	for (NodeDLL* curr = head->next; curr != tail;)
 	{
 		NodeDLL * nextNode = curr->next;
 		free(curr);
 		curr = nextNode;
 	}
-	free(tail);
-	free(head);
+	head->next = tail;
+	tail->prev = head;
 }

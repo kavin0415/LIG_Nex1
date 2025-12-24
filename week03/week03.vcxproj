@@ -127,6 +127,7 @@
     <ClCompile Include="algo_day02.c" />
     <ClCompile Include="algo_day03.c" />
     <ClCompile Include="algo_day04.c" />
+    <ClCompile Include="algo_day5.c" />
     <ClCompile Include="DLL_lib.c" />
     <ClCompile Include="DLL_main.c" />
   </ItemGroup>

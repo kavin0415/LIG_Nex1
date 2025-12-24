@@ -19,6 +19,9 @@ int main(void) {
 
 	DLL_InsertAfter(node40, DLL_CreateNode(41));
 	DLL_InsertBefore(node40, DLL_CreateNode(39));
+	DLL_PrintNode(head, tail);
+
+	DLL_Destroy(head, tail);
 	DLL_Destroy(head, tail);
 	DLL_PrintNode(head, tail);
 

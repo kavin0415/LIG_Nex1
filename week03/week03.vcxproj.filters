@@ -33,6 +33,9 @@
     <ClCompile Include="DLL_lib.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="algo_day5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="B2606.txt" />
